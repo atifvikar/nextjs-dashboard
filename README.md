@@ -1,3 +1,5 @@
-# nextjs-dashboard
-Next js initial project
-this is a test project to learn next js and integrate it with postgraceSQl
+## Next.js App Router Course - Starter
+
+This is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.
+
+For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
