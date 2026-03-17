@@ -595,3 +595,23 @@ https://nextjs.org/docs/messages/module-not-found
 [23:13:57.957] Server  LOG     {}
 [23:13:57.961] Server  LOG     {}
 [23:14:30.683] Server  LOG     {}
+[23:19:10.869] Server  LOG      ✓ Compiled in 117ms
+[23:19:36.520] Server  LOG      ✓ Compiled in 106ms
+[23:20:25.606] Server  LOG      ✓ Compiled in 100ms
+[23:21:54.857] Server  LOG     {}
+[23:22:23.438] Server  LOG      ✓ Compiled in 77ms
+[23:22:28.999] Server  LOG     {}
+[23:22:33.565] Server  LOG     {}
+[23:23:11.804] Server  LOG     {}
+[23:23:14.151] Server  LOG     {}
+[23:23:29.073] Server  LOG     {}
+[23:24:35.581] Server  LOG     {}
+[23:25:22.996] Server  LOG     {}
+[23:25:33.053] Server  LOG     {}
+[23:25:47.781] Server  LOG     {}
+[23:25:48.433] Server  LOG     {}
+[23:26:25.411] Server  LOG     {}
+[23:26:27.724] Server  LOG     {}
+[23:27:08.362] Server  LOG     {}
+[23:27:24.696] Browser WARN    Image with src "/hero-desktop.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
