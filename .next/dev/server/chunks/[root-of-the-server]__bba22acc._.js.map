@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 82, "column": 0}, "map": {"version":3,"sources":["file:///Users/930911/Documents/icare/nextjs-dashboard/app/query/route.ts"],"sourcesContent":["import postgres from 'postgres';\n\nconst sql = postgres(process.env.POSTGRES_URL!, { ssl: 'require' });\n\nasync function listInvoices() {\n\tconst data = await sql`\n    SELECT invoices.amount, customers.name\n    FROM invoices\n    JOIN customers ON invoices.customer_id = customers.id\n    WHERE invoices.amount = 666;\n  `;\n\n\treturn data;\n}\n\nexport async function GET() {\n  // return Response.json({\n  //   message:\n  //     'Uncomment this file and remove this line. You can delete this file when you are finished.',\n  // });\n  try {\n  \treturn Response.json(await listInvoices());\n  } catch (error) {\n  \treturn Response.json({ error }, { status: 500 });\n  }\n}\n"],"names":[],"mappings":";;;;AAAA;;AAEA,MAAM,MAAM,IAAA,0MAAQ,EAAC,QAAQ,GAAG,CAAC,YAAY,EAAG;IAAE,KAAK;AAAU;AAEjE,eAAe;IACd,MAAM,OAAO,MAAM,GAAG,CAAC;;;;;EAKtB,CAAC;IAEF,OAAO;AACR;AAEO,eAAe;IACpB,yBAAyB;IACzB,aAAa;IACb,mGAAmG;IACnG,MAAM;IACN,IAAI;QACH,OAAO,SAAS,IAAI,CAAC,MAAM;IAC5B,EAAE,OAAO,OAAO;QACf,OAAO,SAAS,IAAI,CAAC;YAAE;QAAM,GAAG;YAAE,QAAQ;QAAI;IAC/C;AACF"}}]
+}
