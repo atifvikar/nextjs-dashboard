@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///Users/930911/Documents/icare/nextjs-dashboard/app/dashboard/invoices/create/page.tsx"],"sourcesContent":["\nexport default function CreateInvoicePage() {\n  return (\n    <div>\n      <h1 className=\"text-2xl font-bold\">Create Invoice</h1>\n      {/* Form fields for creating an invoice would go here */}\n    </div>\n  );\n}"],"names":[],"mappings":";;;;;;AACe,SAAS;IACtB,qBACE,8WAAC;kBACC,cAAA,8WAAC;YAAG,WAAU;sBAAqB;;;;;;;;;;;AAIzC"}}]
+}
