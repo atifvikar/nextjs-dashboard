@@ -1,4 +1,20 @@
 {
-  "node": {},
+  "node": {
+    "40a23638e83062c7ce9566ee324745e2266ea643bb": {
+      "workers": {
+        "app/dashboard/invoices/create/page": {
+          "moduleId": "[project]/.next-internal/server/app/dashboard/invoices/create/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/lib/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "createInvoice",
+          "filename": "app/lib/actions.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/invoices/create/page": "rsc"
+      },
+      "exportedName": "createInvoice",
+      "filename": "app/lib/actions.ts"
+    }
+  },
   "edge": {}
 }

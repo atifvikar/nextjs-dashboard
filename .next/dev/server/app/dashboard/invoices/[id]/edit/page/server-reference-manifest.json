@@ -1,0 +1,20 @@
+{
+  "node": {
+    "60080b28e395d66821daf4118d426324de943b074a": {
+      "workers": {
+        "app/dashboard/invoices/[id]/edit/page": {
+          "moduleId": "[project]/.next-internal/server/app/dashboard/invoices/[id]/edit/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/lib/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateInvoice",
+          "filename": "app/lib/actions.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/invoices/[id]/edit/page": "action-browser"
+      },
+      "exportedName": "updateInvoice",
+      "filename": "app/lib/actions.ts"
+    }
+  },
+  "edge": {}
+}

@@ -1,5 +1,58 @@
 {
-  "node": {},
+  "node": {
+    "60080b28e395d66821daf4118d426324de943b074a": {
+      "workers": {
+        "app/dashboard/invoices/[id]/edit/page": {
+          "moduleId": "[project]/.next-internal/server/app/dashboard/invoices/[id]/edit/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/lib/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateInvoice",
+          "filename": "app/lib/actions.ts"
+        },
+        "app/dashboard/invoices/page": {
+          "moduleId": "[project]/.next-internal/server/app/dashboard/invoices/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/lib/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateInvoice",
+          "filename": "app/lib/actions.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/invoices/[id]/edit/page": "action-browser",
+        "app/dashboard/invoices/page": "rsc"
+      },
+      "filename": "app/lib/actions.ts",
+      "exportedName": "updateInvoice"
+    },
+    "40a23638e83062c7ce9566ee324745e2266ea643bb": {
+      "workers": {
+        "app/dashboard/invoices/page": {
+          "moduleId": "[project]/.next-internal/server/app/dashboard/invoices/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/lib/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "createInvoice",
+          "filename": "app/lib/actions.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/invoices/page": "rsc"
+      },
+      "filename": "app/lib/actions.ts",
+      "exportedName": "createInvoice"
+    },
+    "40bac679200aca7f127c33e5e31f64762b7a41603d": {
+      "workers": {
+        "app/dashboard/invoices/page": {
+          "moduleId": "[project]/.next-internal/server/app/dashboard/invoices/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/lib/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "deleteInvoice",
+          "filename": "app/lib/actions.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/invoices/page": "rsc"
+      },
+      "filename": "app/lib/actions.ts",
+      "exportedName": "deleteInvoice"
+    }
+  },
   "edge": {},
   "encryptionKey": "LNQaHx/QvZpHQUsKkiMTl4AtcjRwi7kgc6yNm821BFc="
 }
